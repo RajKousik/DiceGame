@@ -6,7 +6,7 @@
 
 .container
 {
-    height: 85vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,6 @@
 {
     flex: 1;
 }
-
 
 .button {
   padding: 10px;
@@ -110,11 +109,17 @@
   border-radius: 10px;
 }
 
+.display{
+  margin-top: 100px;
+}
+
 .move p{
     font-size: 30px;
     font-weight: 500;
     border: 2px solid;
     background-color: teal;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .display p{

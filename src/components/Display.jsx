@@ -1,7 +1,9 @@
 import React from 'react'
 import '../css/dice.css'
 
-const Display = ({isLastTurnFirstPlayer, image, num}) => {
+import Button from './Button'
+
+const Display = ({isLastTurnFirstPlayer, image, num, handleClick}) => {
   return (
     <React.Fragment>
 
@@ -28,7 +30,7 @@ const Display = ({isLastTurnFirstPlayer, image, num}) => {
                 } 
 
             </div>
-
+            <Button num = {num} handleClick={handleClick} />
         </div>
 
     </React.Fragment>

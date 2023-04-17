@@ -57,10 +57,10 @@ const Dice = () =>
         <div className="wrapper">
             <div className='container'>
                 <User isFirstPlayer = {isFirstPlayer} />
-                <Display isLastTurnFirstPlayer={isLastTurnFirstPlayer} image={image} num={num}/>
+                <Display isLastTurnFirstPlayer={isLastTurnFirstPlayer} image={image} num={num} handleClick={handleClick}/>
                 <User2 isFirstPlayer={isFirstPlayer}/> 
             </div>
-            <Button num = {num} handleClick={handleClick} />
+            {/* <Button num = {num} handleClick={handleClick} /> */}
         </div>
 
     </React.Fragment>
