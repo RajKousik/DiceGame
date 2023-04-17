@@ -3,10 +3,10 @@ import img from '../assets/user.png';
 import '../css/dice.css'
 
 
-const User2 = (isFirstPlayer) => {
+const User2 = ({isFirstPlayer}) => {
+  // console.log(isFirstPlayer);
   return (
     <React.Fragment>
-        
         <div className='user  user2' style={ !isFirstPlayer ? {backgroundColor:"green"} : {backgroundColor:"white"}}>
             <img src={img} alt="name"  />
             <p>User 2</p>
